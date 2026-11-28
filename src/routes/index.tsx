@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aveluna - Davlat reimbursatsiyasi, bepul dorilar ro'yxati, dorixona qidirish, e-retsept" },
-      { name: "keywords", content: "Aveluna, davlat reimbursatsiyasi, bepul dorilar ro'yxati, dorixona qidirish, e-retsept, elektron retsept, DTSJ, bepul dori, Toshkent dorixonalari" },
-      { name: "description", content: "Shifokor 12 xonali e-retsept yozadi, bemor uni kuzatadi, farmatsevt bir necha soniyada dori beradi. Surunkali kasalliklar uchun bepul dorilar." },
-      { property: "og:title", content: "Aveluna - Davlat reimbursatsiyasi, bepul dorilar va e-retsept" },
+      { title: "Aveluna — Bepul dorilar ro'yxati, e-retsept va reimbursatsiya (DTSJ)" },
+      { name: "keywords", content: "Aveluna, bepul dorilar ro'yxati, бепул дорилар рўйхати, elektron retsept, e-retsept, reimbursatsiya dasturi, DTSJ hamkor dorixonalar, surunkali kasalliklar uchun bepul dorilar, бесплатные лекарства по рецепту Ташкент" },
+      { name: "description", content: "Bepul dorilar ro'yxati, reimbursatsiya dasturi va DTSJ hamkor dorixonalari. Shifokor 12 xonali e-retsept yozadi, bemor uni kuzatadi, farmatsevt bir necha soniyada dori beradi." },
+      { property: "og:title", content: "Aveluna — Bepul dorilar ro'yxati, e-retsept va reimbursatsiya (DTSJ)" },
       { property: "og:description", content: "Shifokor 12 xonali e-retsept yozadi, bemor uni kuzatadi, farmatsevt bir necha soniyada dori beradi." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

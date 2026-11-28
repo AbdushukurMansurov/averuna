@@ -8,9 +8,10 @@ import { enrichPharmacy } from "@/lib/pharmacy-data";
 export const Route = createFileRoute("/pharmacies")({
   head: () => ({
     meta: [
-      { title: "Dorixonalar — Aveluna" },
-      { name: "description", content: "Dorixonalar manzili, telefoni va DTSJ hamkorlik holati — bepul dorilarni qayerdan olishni bilib oling." },
-      { property: "og:title", content: "Dorixonalar — Aveluna" },
+      { title: "DTSJ hamkor dorixonalar va yaqin atrofdagi dorixonalar — Aveluna" },
+      { name: "keywords", content: "DTSJ hamkor dorixonalar, davlat tibbiy sug'urta jamg'armasi dorixonalar, yaqin atrofdagi dorixonalar, arzon dorixona Toshkent" },
+      { name: "description", content: "DTSJ hamkor dorxonalar ro'yxati: manzil, telefoni, ish vaqti va yaqin atrofdagi dorixonalar — bepul dorilarni qayerdan olishni bilib oling." },
+      { property: "og:title", content: "DTSJ hamkor dorixonalar va yaqin atrofdagi dorixonalar — Aveluna" },
       { property: "og:description", content: "Dorixonalar manzili, telefoni va DTSJ hamkorlik holati — bepul dorilarni qayerdan olishni bilib oling." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

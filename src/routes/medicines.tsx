@@ -10,9 +10,10 @@ import { sanitizeText } from "@/lib/security-validation";
 export const Route = createFileRoute("/medicines")({
   head: () => ({
     meta: [
-      { title: "Dorilar va reimbursatsiya — Aveluna" },
-      { name: "description", content: "Dorilarni savdo va XPN nomi bo'yicha qidiring: DTSJ qancha qoplashi va bemor qancha to'lashini ko'ring." },
-      { property: "og:title", content: "Dorilar va reimbursatsiya — Aveluna" },
+      { title: "Davlat hisobidan bepul dorilar ro'yxati va narxlari — Aveluna" },
+      { name: "keywords", content: "bepul dorilar ro'yxati, dori narxlari va mavjudligi, davlat hisobidan beriladigan dorilar, список бесплатных лекарств Узбекистан" },
+      { name: "description", content: "Davlat hisobidan beriladigan bepul dorilar ro'yxati: savdo va XPN nomi bo'yicha qidiring, dori narxlari, mavjudligi va DTSJ qoplash foizini ko'ring." },
+      { property: "og:title", content: "Davlat hisobidan bepul dorilar ro'yxati va narxlari — Aveluna" },
       { property: "og:description", content: "Dorilarni savdo va XPN nomi bo'yicha qidiring: DTSJ qancha qoplashi va bemor qancha to'lashini ko'ring." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
