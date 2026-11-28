@@ -7,19 +7,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aveluna.uzqollanma</loc>
+    <loc>https://aveluna.uz/qollanma</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aveluna.uzmedicines</loc>
+    <loc>https://aveluna.uz/medicines</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aveluna.uzpharmacies</loc>
+    <loc>https://aveluna.uz/pharmacies</loc>
     <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
