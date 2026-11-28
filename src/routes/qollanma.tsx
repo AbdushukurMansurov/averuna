@@ -11,9 +11,10 @@ import { translate } from "@/i18n/translations";
 export const Route = createFileRoute("/qollanma")({
   head: () => ({
     meta: [
-      { title: "Reimbursatsiya qo'llanmasi — Aveluna" },
-      { name: "description", content: "Davlat hisobidan bepul dorini 4 qadamda qanday olish mumkin va sizning tashxisingiz bo'yicha qaysi dorilar 0 so'mga beriladi." },
-      { property: "og:title", content: "Reimbursatsiya qo'llanmasi — Aveluna" },
+      { title: "Reimbursatsiya dasturi va poliklinikadan bepul dori olish qo'llanmasi — Aveluna" },
+      { name: "keywords", content: "reimbursatsiya dorilar ro'yxati, elektron retsept qanday olinadi, poliklinikadan bepul dori olish, imtiyozli dorilar ro'yxati" },
+      { name: "description", content: "Reimbursatsiya dasturi bo'yicha poliklinikadan bepul dori olishning 4 qadami: shifokor, elektron retsept, DTSJ hamkor dorixona va 0 so'mga dori olish." },
+      { property: "og:title", content: "Reimbursatsiya dasturi va poliklinikadan bepul dori olish qo'llanmasi — Aveluna" },
       { property: "og:description", content: "Bepul dorini 4 qadamda olish va huquqingizni tekshirish." },
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary" },
